@@ -1,0 +1,27 @@
+{
+  "name": "kcreadme",
+  "version": "1.0.0",
+  "description": "Node Generated ReadMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karna1014/KCReadMe.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Karna Cutolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karna1014/KCReadMe/issues"
+  },
+  "homepage": "https://github.com/Karna1014/KCReadMe#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.4",
+    "promise": "^8.0.3"
+  }
+}
