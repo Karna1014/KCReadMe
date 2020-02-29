@@ -79,6 +79,15 @@ const writeStream = fs.createWriteStream('README.md');
 
 const pathName = writeStream.path;
 
+let licChoice = "";
+
+if(answer.license === "MIT") {
+  licChoice = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+} else if (answer.license === "ISC") {
+  licChoice = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
+} else {
+  licChoice = `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`;
+}
 
 
 // write each value of the array on the file breaking line
@@ -98,13 +107,11 @@ writeStream.on('error', (err) => {
 writeStream.end();
 };
 
-const licChoice = function() {
-  if(answer.license[0] => {`[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`);
-  } else (answer.license[1] => {`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`);
-  } else {
-    `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`
-  }; 
-};
+
+    
+    
+    
+ 
 
 
 
