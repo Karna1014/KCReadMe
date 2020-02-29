@@ -1,15 +1,15 @@
 {
     "readDiv" : [
     {
-      "Title" : "Title: ",
-      "Description" : "Description:",
-      "Table of Contents" : "Table of Contents: ",
-      "Installation" : "Installation: ",
-      "Usage" : "Usage: ",
-      "License" : "License: ",
-      "Contributing" : "Contributing: ",
-      "Tests" : "Tests: ",
-      "Questions" : "Questions:",
-      "Images" : "Images: "
+      "Title",
+      "Description",
+      "Table of Contents",
+      "Installation",
+      "Usage",
+      "License",
+      "Contributing",
+      "Tests",
+      "Questions",
+      "Images"
     }]
 }

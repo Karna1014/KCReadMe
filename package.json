@@ -23,5 +23,8 @@
     "axios": "^0.19.2",
     "inquirer": "^7.0.4",
     "promise": "^8.0.3"
+  },
+  "devDependencies": {
+    "mocha-banner": "^1.1.2"
   }
 }
