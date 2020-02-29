@@ -1,4 +1,4 @@
-** Github Username: **
+**Github Username:**
  Karna1014
 
  # ReadMe!
@@ -19,20 +19,20 @@ A command-line application that dynamically generates a ReadMe.md utilizing user
 npm i
 
  ### Usage: 
-As a developer, this project provides a template for readily generating a ReadMe document for a new project. 
+As a developer, this project provides a template for readily generating a ReadMe document for a new project.
 
  #### License: 
-ISC: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+MIT: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
- ### Contributions: Karna
+ ### Contributions: Karna Cutolo
 
- ** Tests: **
+ **Tests:**
 npm test
 
 ### Questions: 
 <img src="https://avatars3.githubusercontent.com/u/57597042?v=4" alt="avatar" style="border-radius: 16px" width="40px" />
  If you have any questions about this repo, please reach out: 
- ** Email: ** 
+ **Email:** 
 karna.cutolo@gmail.com
 
  #### Images:

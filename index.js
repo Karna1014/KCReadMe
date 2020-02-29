@@ -91,7 +91,7 @@ if(answer.license === "MIT") {
 
 
 // write each value of the array on the file breaking line
-writeStream.write(`** Github Username: **\n ${github.login}\n\n # ${answer.title}\n\n ## Description: \n${answer.description}\n\n ## Table of Contents: \n * Installation \n * Usage \n * License \n * Contributing \n * Tests \n * Questions \n * Images \n\n #### Installation: \n${answer.installation}\n\n ### Usage: \n${answer.usage}\n\n #### License: \n${answer.license}: ${licChoice}\n\n ### Contributions: ${answer.contributing}\n\n ** Tests: **\n${answer.tests}\n\n### Questions: \n<img src="${github.avatar_url}" alt="avatar" style="border-radius: 16px" width="40px" />\n If you have any questions about this repo, please reach out: \n ** Email: ** \n${answer.email}\n\n #### Images:`)
+writeStream.write(`**Github Username:**\n ${github.login}\n\n # ${answer.title}\n\n ## Description: \n${answer.description}\n\n ## Table of Contents: \n * Installation \n * Usage \n * License \n * Contributing \n * Tests \n * Questions \n * Images \n\n #### Installation: \n${answer.installation}\n\n ### Usage: \n${answer.usage}\n\n #### License: \n${answer.license}: ${licChoice}\n\n ### Contributions: ${answer.contributing}\n\n **Tests:**\n${answer.tests}\n\n### Questions: \n<img src="${github.avatar_url}" alt="avatar" style="border-radius: 16px" width="40px" />\n If you have any questions about this repo, please reach out: \n **Email:** \n${answer.email}\n\n #### Images:`)
 
 // the finish event is emitted when all data has been flushed from the stream
 writeStream.on('finish', () => {
@@ -117,24 +117,5 @@ writeStream.end();
 
 
 
-//     fs.readFile("data.json", "utf8", function(err, data) {
-//         if (err) {
-//         throw err;
-//         }
 
-// const dataJSON = JSON.parse(data); 
 
-//     });
-// const dataJSON = JSON.stringify(data);
-
-// fs.writeFile("README.md", dataJSON, (error, contents) => {
-//     if(error){
-//       throw error;
-//     }
-//     console.log("ReadMe created successfully");
-
-// Pull profile pic 
-  // return axios.get(url, { responseType: 'arraybuffer' }).then(res => {
-  //   ;`data:${res.headers['content-type']};base64,${Buffer.from(String.fromCharCode(...new Uint8Array(res.data)), 'binary')
-  //     .toString('base64')}`
-  // })
