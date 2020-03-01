@@ -129,9 +129,10 @@ writeStream.write(`
    
    ### Questions: 
    <img src="${github.avatar_url}" alt="avatar" style="border-radius: 16px" width="40px" />
-    If you have any questions about this repo, please reach out: 
+   
+   #### If you have any questions about this repo, please reach out: 
 
-   **Email:**${answer.email}
+   **Email: ${answer.email}**
      
    #### Images:
 `)
