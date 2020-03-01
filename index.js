@@ -63,7 +63,7 @@ const answer = await inquirer
 
   ]);
     const url = `https://api.github.com/users/${answer.username}`;
-    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
     const response = await axios.get(url)
        
 
@@ -91,7 +91,50 @@ if(answer.license === "MIT") {
 
 
 // write each value of the array on the file breaking line
-writeStream.write(`**Github Username:**\n ${github.login}\n\n # ${answer.title}\n\n ## Description: \n${answer.description}\n\n ## Table of Contents: \n * Installation \n * Usage \n * License \n * Contributing \n * Tests \n * Questions \n * Images \n\n #### Installation: \n${answer.installation}\n\n ### Usage: \n${answer.usage}\n\n #### License: \n${answer.license}: ${licChoice}\n\n ### Contributions: ${answer.contributing}\n\n **Tests:**\n${answer.tests}\n\n### Questions: \n<img src="${github.avatar_url}" alt="avatar" style="border-radius: 16px" width="40px" />\n If you have any questions about this repo, please reach out: \n **Email:** \n${answer.email}\n\n #### Images:`)
+writeStream.write(`
+**Github Username:**
+ ${github.login}
+ 
+ # ${answer.title}
+ 
+ ## Description: 
+ ${answer.description}
+ 
+ ## Table of Contents: 
+  * Installation 
+  * Usage 
+  * License 
+  * Contributing 
+  * Tests 
+  * Questions 
+  * Images 
+   
+   #### Installation: 
+
+   ${answer.installation}
+   
+   ### Usage: 
+
+   ${answer.usage}
+   
+   #### License: 
+
+   ${answer.license}: ${licChoice}
+   
+   ### Contributions: ${answer.contributing}
+   
+   **Tests:**
+   
+   ${answer.tests}
+   
+   ### Questions: 
+   <img src="${github.avatar_url}" alt="avatar" style="border-radius: 16px" width="40px" />
+    If you have any questions about this repo, please reach out: 
+
+   **Email:** ${answer.email}
+     
+   #### Images:
+`)
 
 // the finish event is emitted when all data has been flushed from the stream
 writeStream.on('finish', () => {
