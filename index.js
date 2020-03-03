@@ -69,7 +69,8 @@ const answer = await inquirer
 
     writeFile(answer, response.data);
     console.log(response.data);
-  
+
+      
 }
 
    fetchUserInfo();
@@ -152,7 +153,6 @@ writeStream.end();
 };
 
 
-    
     
     
  
