@@ -46,7 +46,7 @@ const answer = await inquirer
         "ISC",
         "MIT",
         "IBM",
-        "  "
+        "Unlicense"
       ]
     },
 
@@ -86,8 +86,10 @@ if(answer.license === "MIT") {
   licChoice = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
 } else if (answer.license === "ISC") {
   licChoice = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
-} else {
+} else if (answer.licence === "IBM") {
   licChoice = `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`;
+} else {
+  licChoice = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
 }
 
 

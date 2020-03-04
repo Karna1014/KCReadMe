@@ -2,7 +2,7 @@
 **Github Username:**
  Karna1014
  
- # ReadMe!
+ # Karna1014
  
  ## Description: 
  A command-line application that dynamically generates a ReadMe.md utilizing user input.
@@ -22,7 +22,7 @@
    
    ### Usage: 
 
-   As a developer, this project provides a template for readily generating a ReadMe document for a new project. 
+   As a develop, this project provides a template for readily generating a ReadMe document for a new project.
    
    #### License: 
 
