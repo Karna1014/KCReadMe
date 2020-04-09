@@ -23,8 +23,8 @@
     "api2pdf": "^1.1.0",
     "axios": "^0.19.2",
     "grabzit": "^3.4.5",
-    "inquirer": "^7.0.4",
-    "promise": "^8.0.3"
+    "inquirer": "^7.1.0",
+    "promise": "^8.1.0"
   },
   "devDependencies": {
     "mocha-banner": "^1.1.2"
