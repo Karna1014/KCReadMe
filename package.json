@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Karna1014/KCReadMe#readme",
   "dependencies": {
     "api2pdf": "^1.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "grabzit": "^3.4.5",
     "inquirer": "^7.1.0",
     "promise": "^8.1.0"
